@@ -1,4 +1,3 @@
-run  -it --rm debian
 apt update -y
 apt install build-essential -y
 apt install vim -y
