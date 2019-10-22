@@ -10,7 +10,6 @@ ADD https://raw.githubusercontent.com/rails/webpacker/master/lib/install/config/
 RUN mv app opt/
 WORKDIR opt/app
 EXPOSE 3000
-#http://www.xyzpub.com/en/ruby-on-rails/3.2/seed_rb.html
 RUN bundle install
 RUN rake db:migrate
 RUN rake db:seed
